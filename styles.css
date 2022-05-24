@@ -59,7 +59,7 @@ body {
 .section {
     margin: 0;
     margin-bottom: 2rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,6 +171,33 @@ body {
 
 .grid-item-2 {
     border-left: 1px dotted hsl(240, 1%, 35%);
+}
+
+.accom-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accom-grid-item {
+    margin-top: 1rem;
+    padding: 1rem;
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.accom-grid-image {
+    width: 100%;
+    border: 1px solid hsl(240, 1%, 55%);
+}
+
+.check-in, .check-out {
+    margin: 0;
+}
+
+.info.left-side {
+    margin: 0;
+    align-self: flex-start;
+    margin-left: 32rem;
 }
 
 
