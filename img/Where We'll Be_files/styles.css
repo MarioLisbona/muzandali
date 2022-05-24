@@ -153,24 +153,11 @@ body {
 .itinerary-grid {
     display: grid;
     justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(2, minmax(auto, 500px));
+    grid-template-columns: repeat(2, minmax(auto, 400px));
 }
 
-.grid-img {
-    width: 100%;
-}
-
-.grid-item, .grid-img {
-    padding: 2rem;
-}
-
-.grid-item-1 {
-    border-right: 1px dotted hsl(240, 1%, 35%);
-}
-
-.grid-item-2 {
-    border-left: 1px dotted hsl(240, 1%, 35%);
+.grid-image {
+    width: 333px;
 }
 
 
