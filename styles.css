@@ -72,12 +72,20 @@ body {
     max-width: 500px;
 }
 
+.info-left-side {
+    text-align: start;
+    line-height: 1.5;
+    margin: 1rem;
+    max-width: 500px;
+}
+
 .info-title {
     margin: 0;
     margin-top: 1.5rem;
 }
 
 .title {
+    margin: 4rem;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
@@ -98,7 +106,18 @@ body {
 }
 
 .intro-subtitle a,
-.current-page{
+.grid-item a,
+.info a,
+.accom-left-side-container a,
+.info-left-side a {
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    border-bottom: 2px solid hsl(240, 1%, 35%);
+    border-radius: .1rem;
+}
+
+.current-page {
     text-decoration: none;
     color: inherit;
     font: inherit;
@@ -194,10 +213,33 @@ body {
     margin: 0;
 }
 
-.info.left-side {
-    margin: 0;
-    align-self: flex-start;
-    margin-left: 32rem;
+/* .accom-left-side {
+    background-color: red;
+    max-width: 500px;
+    align-self: flex-end;
+} */
+
+.accom-left-side-container,
+.agenda-left-side-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
 }
+
+.accom-left-side-container p {
+    margin: .2rem;
+    padding-right: 15rem;
+}
+
+.agenda-left-side-container p {
+    margin: .2rem;
+    padding-right: 6rem;
+}
+
+#address {
+    margin-top: 10rem;
+}
+
+
 
 
