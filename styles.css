@@ -2,9 +2,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(./Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf);
+    font-weight: lighter;
+ }
+
+ @font-face {
+    font-family: myFont;
+    src: url(./Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf);
+    font-weight: bold;
+ }
+
 body {
     margin: 0;
-    font-family: times;
+    font-family: myFont;
     color: hsl(240, 1%, 25%);
     position: relative;
 }
