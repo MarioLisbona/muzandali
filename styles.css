@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: times;
     color: hsl(240, 1%, 25%);
+    position: relative;
 }
 
 .header-title {
@@ -31,6 +32,11 @@ body {
 
 .navbar {
     padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 1rem;
 }
 
 .link-list {
